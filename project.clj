@@ -88,7 +88,7 @@
              :aot :all
              :main scrabble.api}
    :dev
-   {:plugins [[lein-figwheel "0.5.9"]
+   {:plugins [[lein-figwheel "0.5.12"]
               [lein-doo "0.1.7"]]
 
     :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
